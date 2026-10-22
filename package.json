@@ -1,0 +1,26 @@
+{
+  "name": "xau",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsx index.ts",
+    "typecheck": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ap467929-debug/Xau.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ap467929-debug/Xau/issues"
+  },
+  "homepage": "https://github.com/ap467929-debug/Xau#readme",
+  "dependencies": {
+    "@higgsfield/client": "^0.2.6",
+    "dotenv": "^18.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
