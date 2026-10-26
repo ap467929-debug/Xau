@@ -8,5 +8,8 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["index.ts"]
+  "include": [
+    "index.ts",
+    "educon/**/*.ts"
+  ]
 }

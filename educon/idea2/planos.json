@@ -1,0 +1,45 @@
+{
+  "proyecto": "EDUCON Medellín · Idea 2 · La experiencia",
+  "estado": "Prompts aprobados por Mauricio el 2026-10-26.",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "url_base_fotos": "https://raw.githubusercontent.com/ap467929-debug/xau/claude/higgsfield-seedance-setup-x22v8r/educon/idea2/fotos/",
+  "comun": {
+    "duration": 5,
+    "sound": "off",
+    "cfg_scale": 0.5
+  },
+  "planos": [
+    {
+      "id": "A",
+      "nombre": "Piscina y fachada al atardecer",
+      "foto": "A_piscina_atardecer.jpg",
+      "uso_en_reel": "Frase 2: «Son tres días conviviendo con tus mentores en una mansión en Medellín.» Plano estrella.",
+      "salida": "A_piscina_atardecer.mp4",
+      "prompt": "Slow cinematic push-in toward the illuminated house across the pool at dusk. The pool water ripples gently and reflects the warm wall lights and the pink sky. Subtle movement of palm leaves at the right edge. Steady, smooth gimbal movement, luxury real-estate film look, warm and calm. Keep the architecture, furniture and lighting exactly as in the photo. No people, no new objects, no added lights, no text."
+    },
+    {
+      "id": "B",
+      "nombre": "Entrada principal",
+      "foto": "B_entrada.jpg",
+      "uso_en_reel": "Frase 1 (gancho): «Esto no es un curso en Zoom.»",
+      "salida": "B_entrada.mp4",
+      "prompt": "Slow low-angle crane-up from the bottom steps toward the tall open front door, revealing the warm light inside the doorway. Soft clouds drift slowly in the blue sky. Majestic, quiet, premium architectural film look. Keep the facade, door and steps exactly as in the photo. No people, no new objects, no text, no camera shake."
+    },
+    {
+      "id": "C",
+      "nombre": "Gradería circular del jardín de noche",
+      "foto": "C_graderia_noche.jpg",
+      "uso_en_reel": "Frase 7: «Así vivimos Los Ángeles. Ahora nos vemos en Medellín.» Entra después del material de Los Ángeles.",
+      "salida": "C_graderia_noche.mp4",
+      "prompt": "Slow forward dolly along the illuminated wooden path into the circular sunken seating area at night. The warm under-step lights glow softly, tree leaves sway slightly in the background. Intimate, exclusive, cinematic evening atmosphere. Keep the structure and lighting exactly as in the photo. No people, no new objects, no fire, no text."
+    },
+    {
+      "id": "D",
+      "nombre": "Terraza con camastros",
+      "foto": "D_terraza_camastros.jpg",
+      "uso_en_reel": "Frase 2, segunda mitad: «…tres días conviviendo…»",
+      "salida": "D_terraza_camastros.mp4",
+      "prompt": "Slow lateral slide along the row of white lounge beds on the wooden deck, golden afternoon light, trees moving gently in the breeze behind the stone wall. Relaxed, resort-like, premium lifestyle film look. Keep the furniture, deck and walls exactly as in the photo. No people, no new objects, no text."
+    }
+  ]
+}

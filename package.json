@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "tsx index.ts",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "educon:idea2": "tsx educon/idea2/generar.ts"
   },
   "repository": {
     "type": "git",
