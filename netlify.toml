@@ -1,0 +1,5 @@
+# Le dice a Netlify que publique SOLO la carpeta "web".
+# Así el resto del repositorio (Higgsfield, Apps Script) no queda público.
+[build]
+  publish = "web"
+  command = ""
