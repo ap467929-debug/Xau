@@ -7,7 +7,7 @@ Cuatro clips de 5 s generados a partir de fotos reales de la casa (imagen a víd
 1. Copia `.env.example` a `.env.local` y pon tu clave de API: `HF_CREDENTIALS=key-id:key-secret` (se crea en console.higgsfield.ai). Nunca la subas al repositorio.
 2. Comprueba lo que se va a enviar, sin gastar créditos:
    ```bash
-   npm run educon:idea2
+   cd higgsfield && npm run educon:idea2
    ```
 3. Genera los 4 planos:
    ```bash
